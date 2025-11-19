@@ -15,7 +15,7 @@
     </properties>
 
     <dependencies>
-        <!-- JavaFX -->
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
@@ -27,21 +27,21 @@
             <version>25</version>
         </dependency>
 
-        <!-- Dotenv -->
+
         <dependency>
             <groupId>io.github.cdimascio</groupId>
             <artifactId>dotenv-java</artifactId>
             <version>3.2.0</version>
         </dependency>
 
-        <!-- Jackson for JSON parsing -->
+
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.17.0</version>
         </dependency>
 
-        <!-- JUnit for testing -->
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -52,7 +52,7 @@
 
     <build>
         <plugins>
-            <!-- JavaFX plugin -->
+
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
@@ -62,7 +62,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Surefire för JUnit-körning -->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
